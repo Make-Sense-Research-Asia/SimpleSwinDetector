@@ -1,0 +1,2 @@
+# single-gpu training
+python tools/train.py configs/swin/mask_rcnn_swin_small_patch4_window7_mstrain_480-800_adamw_3x_coco.py --cfg-options model.init_cfg=configs/swin/init_cfg.py model.backbone.with_cp=True

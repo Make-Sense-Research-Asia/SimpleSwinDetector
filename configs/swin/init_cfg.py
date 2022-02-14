@@ -1,0 +1,1 @@
+dict(type='Pretrained', checkpoint='swin_small_patch4_window7_224.pth')
